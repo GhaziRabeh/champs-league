@@ -50,20 +50,18 @@ cd lol-champion-viewer
 
 Install dependencies
 
-npm install
-# or
-yarn
-# or
-pnpm install
+npm install       # Using npm
+yarn              # Using Yarn
+pnpm install      # Using pnpm
+bun install       # Using Bun
 
 
 Run the development server
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run dev       # Using npm
+yarn dev          # Using Yarn
+pnpm dev          # Using pnpm
+bun dev           # Using Bun
 
 
 Open in browser
