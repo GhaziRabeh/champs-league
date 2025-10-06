@@ -32,7 +32,7 @@ export default function MainPanel({ version }: MainPanelProps) {
   const [selectedRoles, setSelectedRoles] = useState<string[]>([]);
   const [showFilters, setShowFilters] = useState(false);
   const [isInitialLoading, setIsInitialLoading] = useState(true);
-  const champsPerPage = 18;
+  const champsPerPage = 21;
 
   // Simulate 2-second loading delay for initial load
   useEffect(() => {
