@@ -12,7 +12,7 @@ export default function Header() {
           height={24}
           className="text-[min(10vw,50px)]"
         />
-        <h1 className="text-2xl font-extrabold text-[#eb0029] text-center">
+        <h1 className="text-2xl font-extrabold text-[#eb0029] text-[min(10vw,50px)] text-center">
           Welcome To League Of Legends
         </h1>
       </CardContent>
