@@ -1,75 +1,85 @@
-🏆 League of Legends Champion Viewer
+# 🏆 League of Legends Data Explorer
 
-A web application to browse and explore League of Legends champions by game version. Users can view champion names, titles, tags, images, lore, and passive abilities. Built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, and TanStack Query.
+A comprehensive web application to explore League of Legends game data including champions, skins, maps, runes, and items. Built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, and TanStack Query.
 
-✨ Features
+![League of Legends Data Explorer](https://img.shields.io/badge/League_of_Legends-Data_Explorer-red?style=for-the-badge&logo=leagueoflegends)
+![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 
-🗂 Browse all champions for a selected game version
+## ✨ Features
 
-🔢 Pagination for large champion lists
+### 🏆 Champions
+- **Browse All Champions** - View all champions for any game version
+- **Detailed Champion Profiles** - Click to see comprehensive information:
+  - Name, title, and lore
+  - Champion roles and tags
+  - Base stats (Attack, Defense, Magic, Difficulty)
+  - Passive abilities with descriptions
+  - Complete skins gallery with chromas
+- **Smart Filtering** - Search by name/title and filter by role
+- **Grid & List Views** - Toggle between different viewing modes
+- **Responsive Design** - Optimized for all devices
 
-🏹 Click on a champion to see detailed information:
+### 🎨 Skins & Chromas
+- **Skins Gallery** - Browse all available skins for each champion
+- **High-Quality Images** - Loading screens and splash arts
+- **Chroma Support** - View different color variations
+- **Modal Viewer** - Full-screen skin preview with navigation
+- **Skin Information** - Details about each skin and its variants
 
-🏷 Name & title
+### 🗺️ Maps
+- **Interactive Map Browser** - Explore all League of Legends maps
+- **Map Details** - Comprehensive information for each map:
+  - Map name and ID
+  - Game mode descriptions
+  - Key features and objectives
+  - High-quality map images
+- **Image Gallery** - Multiple views including icons and loading screens
+- **Modal Preview** - Detailed map information in beautiful modals
 
-🖼 Image
+### ⚡ Runes
+- **Rune Paths** - Browse all rune paths (Precision, Domination, Sorcery, etc.)
+- **Rune Details** - Complete information for each rune:
+  - Keystones and slot runes
+  - Icons and descriptions
+  - Short and long descriptions
+- **Accordion Interface** - Expandable sections for each path
+- **Visual Hierarchy** - Clear organization of rune slots
 
-🏷 Tags & passive ability
+### 🛡️ Items
+- **Complete Item Database** - Browse all in-game items
+- **Smart Filtering** - Search by name/description and filter by category:
+  - Boots, Consumables, Jungle Items
+  - Damage, Spell Damage, Armor, Magic Resist
+  - Health Regen, Mana Regen, and more
+- **Item Details** - Comprehensive item information:
+  - Gold cost (total and base)
+  - Plaintext descriptions
+  - Item tags and categories
+  - High-quality icons
+- **Pagination** - Navigate through large item collections
 
-📖 Lore & blurb
+### 🔧 Technical Features
+- **Version Selection** - Choose specific game versions from sidebar
+- **Responsive Design** - Mobile-first approach with smooth animations
+- **Advanced Search** - Real-time filtering across all sections
+- **Smooth Animations** - Framer Motion for engaging transitions
+- **Loading States** - Beautiful loading animations and skeletons
+- **Pagination** - Efficient data loading for large datasets
 
-🎨 Smooth animations using Framer Motion
+## 🛠 Technologies Used
 
-📱 Responsive design using shadcn/ui components
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Reusable UI components
+- **Framer Motion** - Smooth animations and transitions
+- **TanStack Query** - Data fetching and caching
+- **Riot Data Dragon API** - Official League of Legends data
+- **Lucide React** - Beautiful icons
 
-⚡ Data fetching & caching with TanStack Query
+## 🚀 Installation & Setup
 
-🛠 Technologies
-
-Next.js – React framework for SSR & static site generation
-
-TypeScript – Type-safe development
-
-Tailwind CSS – Utility-first styling
-
-shadcn/ui – Prebuilt UI components
-
-Framer Motion – Animations for smooth transitions
-
-TanStack Query (React Query) – Efficient data fetching and caching
-
-Riot Data Dragon API – Fetch champions and version data
-
-🚀 Installation
-
-Clone the repository
-
-git clone https://github.com/yourusername/lol-champion-viewer.git
-cd lol-champion-viewer
-
-
-Install dependencies
-
-npm install       # Using npm
-yarn              # Using Yarn
-pnpm install      # Using pnpm
-bun install       # Using Bun
-
-
-Run the development server
-
-npm run dev       # Using npm
-yarn dev          # Using Yarn
-pnpm dev          # Using pnpm
-bun dev           # Using Bun
-
-
-Open in browser
-
-http://localhost:3000
-
-🔑 Environment Variables
-
-Create a .env.local file in the root (if needed):
-
-NEXT_PUBLIC_API_BASE_URL=https://ddragon.leagueoflegends.com
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
