@@ -12,7 +12,7 @@ interface SidebarProps {
   setSelectedVersion: (v: string) => void;
 }
 
-const VERSIONS_PER_PAGE = 14;
+const VERSIONS_PER_PAGE = 17;
 
 export default function Sidebar({ selectedVersion, setSelectedVersion }: SidebarProps) {
   const [versions, setVersions] = useState<string[]>([]);
